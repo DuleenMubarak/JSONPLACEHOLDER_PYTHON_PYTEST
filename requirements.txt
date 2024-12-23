@@ -1,0 +1,6 @@
+pytest
+json
+requests
+csv
+pytest-html
+datetime

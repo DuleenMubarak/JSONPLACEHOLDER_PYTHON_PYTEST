@@ -1,0 +1,22 @@
+[
+    {
+      "userId": 1,
+      "id":1,
+      "title": "foga art succgide",
+      "body": "bar dyet bapiment"
+    },
+    {
+      "userId": 1,
+      "id":100,
+      "title": "updated title",
+      "body": "updated body"
+    },
+    {
+      "userId": 3,
+      "id":3,
+      "title": "updated title",
+      "body": "updated body"
+    }
+  ]
+
+  

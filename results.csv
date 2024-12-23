@@ -1,0 +1,16 @@
+Timestamp,Request Type,Test Name,Response,Result
+2024-12-23 19:38:50,GET - by id,test_get_post_by_id,<Response [200]>,PASS
+2024-12-23 19:38:50,GET - post by invalid id,test_get_post_by_id_invalid_id,<Response [404]>,PASS
+2024-12-23 19:38:51,GET - by non integer id,test_get_post_by_id_non_integer,<Response [404]>,PASS
+2024-12-23 19:38:51,GET - nonexisting post,test_get_nonexistent_post,<Response [404]>,PASS
+2024-12-23 19:38:51,POST - Valid,test_create_post,<Response [201]>,PASS
+2024-12-23 19:38:52,POST - Missing data,test_create_post_missing_data,<Response [201]>,PASS
+2024-12-23 19:39:35,POST - Extra field,test_create_post_with_extra_fields,<Response [201]>,PASS
+2024-12-23 19:39:35,POST - Empty payload,test_create_post_empty_payload,<Response [201]>,PASS
+2024-12-23 19:39:35,PATCH - Valid,test_patch_update_post,<Response [200]>,PASS
+2024-12-23 19:39:36,PATCH - Empty payload,test_patch_post_with_empty_payload,<Response [200]>,PASS
+2024-12-23 19:39:36,PATCH - Nonexistent post,test_patch_update_nonexistent_post,<Response [200]>,PASS
+2024-12-23 19:39:37,Valid PUT,test_put,200,PASS
+2024-12-23 19:39:37,PU - Invalid id,test_put_update_post_with_invalid_id,<Response [500]>,PASS
+2024-12-23 19:39:38,Valid DELETE,test_delete,200,PASS
+2024-12-23 19:39:38,DELETE - Empty id,test_delete_post_empty_id,<Response [404]>,PASS
